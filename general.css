@@ -30,7 +30,7 @@
 #navBar {
     height: 50px;
     width: 100%;
-    top: 200px;
+    top: 180px;
 
     background-color: #ffa154;
     position: sticky;
@@ -42,6 +42,7 @@ ul {
 }
 
 li a {
+    height: 50px;
     display: block;
     float: left;
 
@@ -51,10 +52,11 @@ li a {
     text-align: center;
     text-decoration: none;
     font-family: "Gloria Hallelujah";
-    font-size: 40px;
+    font-size: 30px;
 
-    padding: 16px 18px;
+    padding: 1px 18px;
     width: 444;
+    overflow: hidden;
 
     outline-style: groove;
     outline-color: black;
