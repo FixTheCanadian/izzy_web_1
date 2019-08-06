@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Beth+Ellen|Gloria+Hallelujah|Monoton&display=swap');
+
+* {
+    background-color: #FFBA80;
+
+    padding: 0;
+    margin: 0;
+}
+
+#pageTop {
+    height: 200px;
+    width: 100%;
+    display: block;
+
+    background-color: #FFBA80;
+    
+    outline-style: double;
+    outline-color: black;
+    outline-width: 3px
+}
+
+#bannerText {
+    background-color: #FFBA80;
+
+    font-family: "Gloria Hallelujah";
+    font-size: 80px;
+    text-align: center;
+}
+
+#navBar {
+    height: 50px;
+    width: 100%;
+    top: 200px;
+
+    background-color: #ffa154;
+    position: sticky;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    float: left;
+
+    color: black;
+    background-color: #ffa154;
+
+    text-align: center;
+    text-decoration: none;
+    font-family: "Gloria Hallelujah";
+    font-size: 40px;
+
+    padding: 16px 18px;
+    width: 444;
+
+    outline-style: groove;
+    outline-color: black;
+    outline-width: 3px;
+}
+
+li a:hover {
+    background-color: #EB832D;
+}
